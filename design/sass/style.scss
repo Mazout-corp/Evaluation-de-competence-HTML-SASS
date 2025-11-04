@@ -7,13 +7,36 @@
 // $texteClaire: #555555;
 // $texteFoncé: #ffffff;
 
-@mixin googleFont ($nom){
-    @import url('https://fonts.googleapis.com/css2?family=' + $nom + '&display=swap');
-}
-@include googleFont('Roboto');
-
 *{
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+    // <article id="intro">
+    //     <h1>Industrious</h1>
+    //     <p>A reponsive business oriented templated with a video background <br> designed by TEMPLATED and released under
+    //         the Creative Commons License.</p>
+    // </article>
+
+    #intro{
+        background-image: url('../images/banner2.jpg');
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h1{
+            color: $texteFonc;
+            font-size: 64px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 200;
+        }
+        p{
+            color: $texteFonc;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 200;
+        }
+    }
