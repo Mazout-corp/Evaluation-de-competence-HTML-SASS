@@ -1,0 +1,12 @@
+@use'header'as*;
+@use'footer'as*;
+@use'variables'as*;
+
+// $rouge :#ce1b28;
+// $noir :#111111;
+// $texteClaire: #555555;
+// $texteFoncé: #ffffff;
+
+@mixin googleFont ($nom){
+    @import url('https://fonts.googleapis.com/css2?family=' + $nom + '&display=swap');
+}
