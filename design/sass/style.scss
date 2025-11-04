@@ -10,3 +10,10 @@
 @mixin googleFont ($nom){
     @import url('https://fonts.googleapis.com/css2?family=' + $nom + '&display=swap');
 }
+@include googleFont('Roboto');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
