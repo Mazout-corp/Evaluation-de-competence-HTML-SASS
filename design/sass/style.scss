@@ -18,16 +18,17 @@
         align-items: center;
         justify-content: center;
         h1{
-            color: $texteFonc;
+            color: $texteB;
             font-size: 64px;
             font-family: Arial, Helvetica, sans-serif;
             font-weight: 200;
         }
         p{
-            color: $texteFonc;
+            color: $texteB;
             font-size: 16px;
             font-family: Arial, Helvetica, sans-serif;
             font-weight: 200;
+            text-align: center;
         }
     }
 
@@ -76,3 +77,64 @@
     }
 }
 
+    .cta{
+        background-image: url('../images/cta01.jpg');
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-size:cover ;
+        background-position-y: 33%;
+        h1{
+            color: $texteB;
+            font-size: 64px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 200;
+        }
+        p{
+            color: $texteB;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 200;
+            text-align: center;
+        }
+    }
+
+    footer{
+        background: $noir;
+        color: $texteB;
+        padding: 70px 30px 70px 30px;
+        justify-content: center;
+        justify-items: center;
+        div{
+            display: flex;
+            justify-content: center;
+            gap: 70px;
+            padding-bottom: 50px;
+            article{
+                h1{
+                    font-size: 16px;
+                    font-weight: 200;
+                    padding-bottom: 20px;
+                }
+                p{
+                    font-size: 14px;
+                }
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 10px
+                    ;
+                    li{
+                        list-style: none;
+                        font-size: 14px;
+                    }
+                    i{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
