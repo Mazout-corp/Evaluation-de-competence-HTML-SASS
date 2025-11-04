@@ -104,7 +104,7 @@
 
     footer{
         background: $noir;
-        color: $texteB;
+        color: $texteBOPA;
         padding: 70px 30px 70px 30px;
         justify-content: center;
         justify-items: center;
@@ -113,6 +113,10 @@
             justify-content: center;
             gap: 70px;
             padding-bottom: 50px;
+            hr{
+                color: $texteBOPA;
+                background: $texteBOPA;
+            }
             article{
                 h1{
                     font-size: 16px;
